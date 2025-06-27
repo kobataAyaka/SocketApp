@@ -17,3 +17,16 @@ Network 프레임워크를 이용한 UDP 통신입니다.
 3. 터미널에 송신한 문자열이 표시됩니다.
 
 ![terminal.png](https://github.com/kobataAyaka/SocketApp/blob/images/terminal.png)
+
+## TCP + Network
+Network 프레임워크를 이용한 TCP 통신입니다.
+
+### TCP기능 이용법
+1. 터미널에서 netcat listen 모드로 기동
+```
+% nc -l 12346
+```
+
+2. TCP 버튼을 눌러서 문자열 송신
+
+3. 터미널에 송신한 문자열이 표시됩니다.
