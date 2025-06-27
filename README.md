@@ -29,4 +29,8 @@ Network 프레임워크를 이용한 TCP 통신입니다.
 
 2. TCP 버튼을 눌러서 문자열 송신
 
+![iOS_TCP.png](https://github.com/kobataAyaka/SocketApp/blob/images/iOS_TCP.png)
+
 3. 터미널에 송신한 문자열이 표시됩니다.
+
+![terminal_TCP.png](https://github.com/kobataAyaka/SocketApp/blob/images/terminal_TCP.png)
