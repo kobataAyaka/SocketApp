@@ -30,3 +30,13 @@ Network 프레임워크를 이용한 TCP 통신입니다.
 2. TCP 버튼을 눌러서 문자열 송신
 
 3. 터미널에 송신한 문자열이 표시됩니다.
+
+## WebSocket
+URLSession을 이용한 WebSocket 통신입니다.
+
+### WebSocket 기능 이용법
+1. 앱의 "Connect" 버튼을 눌러 공개 테스트 서버(`wss://echo.websocket.events`)에 접속합니다.
+2. 접속이 성공하면, 메시지 입력 필드에 텍스트를 입력하고 "Send" 버튼을 누릅니다.
+3. 이 서버는 Echo 서버이므로, 송신한 메시지가 그대로 수신되어 로그에 표시됩니다.
+
+
