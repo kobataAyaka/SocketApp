@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct SocketAppApp: App {
+    // swiftlint:disable:next weak_delegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
